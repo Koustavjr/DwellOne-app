@@ -8,9 +8,11 @@
     "scheme": "dwellone",
     "userInterfaceStyle": "automatic",
     "ios": {
+      "bundleIdentifier": "com.koss21.dwellone",
       "icon": "./assets/expo.icon"
     },
     "android": {
+      "package": "com.koss21.dwellone",
       "adaptiveIcon": {
         "backgroundColor": "#E6F4FE",
         "foregroundImage": "./assets/images/android-icon-foreground.png",
@@ -39,6 +41,13 @@
     "experiments": {
       "typedRoutes": true,
       "reactCompiler": true
-    }
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "97e5f67d-5bbc-4a54-8beb-ed484079a732"
+      }
+    },
+    "owner": "koss21s-team"
   }
 }
