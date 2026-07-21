@@ -2,7 +2,6 @@ import { supabase } from '@/utils/supabase';
 import * as Linking from 'expo-linking';
 import { useRouter } from 'expo-router';
 import * as WebBrowser from 'expo-web-browser';
-import { routeAfterAuth } from './routeAfterAuth';
 
 WebBrowser.maybeCompleteAuthSession();
 
@@ -47,7 +46,7 @@ export function useGoogleSignIn() {
 
                     // no manual store update needed — onAuthStateChange in your store handles it
 
-                    await routeAfterAuth(router);
+                    // await routeAfterAuth(router);
                 }
             }
         }
