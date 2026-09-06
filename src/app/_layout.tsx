@@ -20,5 +20,11 @@ export default function RootLayout() {
       statusBarTranslucent: true
     }}
 
-  />;
+  >;
+    <Stack.Screen name="index" />
+    <Stack.Screen name="(auth)" />
+    <Stack.Screen name="(resident)" />
+    <Stack.Screen name="(guard)" />
+    <Stack.Screen name="(admin)" />
+  </Stack>
 }
